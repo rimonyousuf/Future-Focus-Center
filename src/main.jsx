@@ -12,6 +12,7 @@ import Statics from './components/Statics/Statics.jsx';
 import Jobs from './components/Jobs/Jobs.jsx';
 import Blogs from './components/Blogs/Blogs.jsx';
 import Error from './components/Error/Error.jsx';
+import productsLoader from './components/Loader/Loader.js';
 
 const router = createBrowserRouter([
   {
@@ -20,7 +21,8 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home></Home>
+        element: <Home></Home>,
+        loader: productsLoader
       },
       {
         path: '/statics',

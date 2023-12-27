@@ -5,7 +5,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div className='container'>
-            <h1>Future Focus Center</h1>
+            <h1 className='header-title'>Future Focus Center</h1>
             <nav>
                 <ActiveLink to="/">Home</ActiveLink>
                 <ActiveLink to="/statics">Statics</ActiveLink>

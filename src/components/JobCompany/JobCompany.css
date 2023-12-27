@@ -1,0 +1,32 @@
+.job-company-container{
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.job-title{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.company-name{
+    color: #757757;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.job-type{
+    display: flex;
+    gap: 16px;
+    margin: 0;
+}
+
+.job-type p{
+    border: 1px solid #7E90FE;
+    border-radius: 4px;
+    padding: 9px 16px;
+    color: #9873FF;
+    font-weight: 600;
+}

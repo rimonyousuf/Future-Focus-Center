@@ -5,6 +5,11 @@
     align-items: center;
 }
 
+.header-title{
+    font-size: 32px;
+    font-weight: 800;
+}
+
 nav a{
     text-decoration: none;
     color: #757575;
@@ -18,4 +23,9 @@ nav a{
     color: whitesmoke;
     font-size: 20px;
     padding: 18px 25px;
+    cursor: pointer;
+}
+
+.btn-apply:hover{
+    background: var(--Linear, linear-gradient(90deg, #5c6ac4 0%, #7651de 100%));
 }

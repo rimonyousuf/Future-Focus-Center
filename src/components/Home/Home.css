@@ -1,0 +1,56 @@
+.home-container{
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.title{
+    width: 570px;
+    height: 300px;
+    font-size: 80px;
+}
+
+.text-violet{
+    color: #7585eb; 
+}
+
+.details p{
+    color: #757575;
+    width: 519px;
+    height: 90px;
+    font-size: 18px;
+}
+
+.job-category{
+    margin-bottom: 130px;
+}
+
+.category-title{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.category-description{
+    text-align: center;
+    color: #757575;
+    font-weight: 500;
+}
+
+.category-display{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 30px 10px;
+    text-align: center;
+    gap: 25px;
+}
+
+.jobs-display{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+    margin: 30px 0;
+}
