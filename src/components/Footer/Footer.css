@@ -1,0 +1,34 @@
+.footer{
+    margin-top: 130px;
+    background-color: #1A1919;
+    padding: 30px;
+}
+
+.footer-container{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer-title{
+    color: #FFF;
+    font-weight: 800;
+}
+
+.social-section p,.company-section p,.product-section p,.support-section p,.contact-section
+{
+    color: rgba(255, 255, 255, 0.70);
+    width: 300px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.40); 
+    font-size: 14px;
+}
+
+.text-power-by{
+    font-weight: 800;
+}

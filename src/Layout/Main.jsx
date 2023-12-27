@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header/Header';
 import { Outlet, useNavigation } from 'react-router-dom';
+import Footer from '../components/Footer/Footer';
 
 const Main = () => {
 
@@ -11,6 +12,7 @@ const Main = () => {
             <Header></Header>
             <div>{navigation.state === 'loading' && 'Loading'}</div>
             <Outlet></Outlet>
+            <Footer></Footer>
         </div>
     );
 };

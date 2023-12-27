@@ -44,6 +44,9 @@ const Home = () => {
                     }
                 </div>
             </div>
+            <div className="btn-see-all">
+                <button className='btn-apply'>See All Jobs</button>
+            </div>
         </div>
     );
 };
